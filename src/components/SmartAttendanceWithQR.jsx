@@ -17,7 +17,7 @@ import {
     IconButton,
     Card,
     CardContent,
-    useTheme
+    // useTheme
 } from '@mui/material';
 import {
     CheckCircleRounded,
@@ -31,7 +31,7 @@ import {
 const socket = io("http://localhost:5000");
 
 export default function SmartAttendanceWithQR() {
-    const theme = useTheme();
+    // const theme = useTheme();
     const [timeLeft, setTimeLeft] = useState(60);
     const [qrData, setQrData] = useState("init-qr-code");
     // Mock data 

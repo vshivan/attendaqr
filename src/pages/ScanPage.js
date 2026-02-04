@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Html5QrcodeScanner } from "html5-qrcode";
 import api from "../services/api";
 import { Box, Typography, Paper, Alert, Container, CircularProgress } from "@mui/material";
-import { Cameraswitch, QrCodeScanner } from "@mui/icons-material";
+import { QrCodeScanner } from "@mui/icons-material";
 
 export default function ScanPage() {
 
