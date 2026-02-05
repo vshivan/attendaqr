@@ -28,7 +28,8 @@ import {
     RefreshRounded
 } from '@mui/icons-material';
 
-const socket = io("http://localhost:5000");
+const SOCKET_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const socket = io(SOCKET_URL);
 
 export default function SmartAttendanceWithQR() {
     // const theme = useTheme();
