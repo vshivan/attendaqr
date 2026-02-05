@@ -37,7 +37,7 @@ export default function SmartAttendanceWithQR() {
     // Mock data 
     const [logs, setLogs] = useState([
         { id: 1, name: "Shivang", status: "Present", time: "10:00 AM", role: "Dev" },
-        { id: 2, name: "Rahul", status: "Out", time: "10:05 AM", role: "Designer" },
+        { id: 2, name: "Aakash", status: "Out", time: "10:05 AM", role: "Designer" },
     ]);
 
     // Timer & QR Logic
@@ -315,7 +315,7 @@ export default function SmartAttendanceWithQR() {
                         boxShadow: '0 10px 25px rgba(67, 97, 238, 0.4)'
                     }}
                     onClick={() => {
-                        const names = ["Alice", "Bob", "Charlie", "Diana", "Ethan"];
+                        const names = ["Aakash", "Priya", "Vedanti", "Nilam", "Shivang"];
                         const roles = ["Developer", "Designer", "Manager", "Intern"];
                         const randomName = names[Math.floor(Math.random() * names.length)];
                         setLogs(prev => [{
